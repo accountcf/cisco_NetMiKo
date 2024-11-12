@@ -1,0 +1,1125 @@
+ERROR:root:L\u1ed7i: name 'device' is not defined
+ERROR:root:L\u1ed7i: name 'device' is not defined
+DEBUG:paramiko.transport:starting thread (client mode): 0x54575be0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.4.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-Cisco-1.25
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: diffie-hellman-group1-sha1
+DEBUG:paramiko.transport:server key: ssh-rsa
+DEBUG:paramiko.transport:client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc
+DEBUG:paramiko.transport:server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc
+DEBUG:paramiko.transport:client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96
+DEBUG:paramiko.transport:server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96
+DEBUG:paramiko.transport:client compress: none
+DEBUG:paramiko.transport:server compress: none
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: diffie-hellman-group1-sha1
+DEBUG:paramiko.transport:HostKey: ssh-rsa
+DEBUG:paramiko.transport:Cipher: aes128-cbc
+DEBUG:paramiko.transport:MAC: hmac-sha1
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 10.38.1.44: b'e18b01785624aee308caef85613296fa'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'\r\n*************************** >>>> W A R N I N G !!! <<<< *******************************\r\nDay la thiet bi mang cua Ngan hang Loc Phat - LPBANK. Moi ket noi den thiet bi nay deu\r\ndang duoc ghi nhan va bao ve boi he thong bao mat, cac thay doi cau hinh duoc luu tru\r\ntai may chu logging.\r\nThis system, including all related hardware and infrastructure devices, is intended for \r\nauthorized  use only! All activity may be logged; unauthorized access can and will be \r\nprosecuted! LPBANK-security warning !!!\r\n***************************************************************************************\r\n'
+ERROR:root:Không tìm th\u1ea5y file 'G:\scripts\python\Vlan'. Vui lòng ki\u1ec3m tra l\u1ea1i tên file và \u0111\u01b0\u1eddng d\u1eabn.
+DEBUG:paramiko.transport:starting thread (client mode): 0x37d06060
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.4.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-Cisco-1.25
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: diffie-hellman-group1-sha1
+DEBUG:paramiko.transport:server key: ssh-rsa
+DEBUG:paramiko.transport:client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc
+DEBUG:paramiko.transport:server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc
+DEBUG:paramiko.transport:client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96
+DEBUG:paramiko.transport:server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96
+DEBUG:paramiko.transport:client compress: none
+DEBUG:paramiko.transport:server compress: none
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: diffie-hellman-group1-sha1
+DEBUG:paramiko.transport:HostKey: ssh-rsa
+DEBUG:paramiko.transport:Cipher: aes128-cbc
+DEBUG:paramiko.transport:MAC: hmac-sha1
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 10.38.1.44: b'e18b01785624aee308caef85613296fa'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'\r\n*************************** >>>> W A R N I N G !!! <<<< *******************************\r\nDay la thiet bi mang cua Ngan hang Loc Phat - LPBANK. Moi ket noi den thiet bi nay deu\r\ndang duoc ghi nhan va bao ve boi he thong bao mat, cac thay doi cau hinh duoc luu tru\r\ntai may chu logging.\r\nThis system, including all related hardware and infrastructure devices, is intended for \r\nauthorized  use only! All activity may be logged; unauthorized access can and will be \r\nprosecuted! LPBANK-security warning !!!\r\n***************************************************************************************\r\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:read_channel: terminal wid
+DEBUG:netmiko:read_channel: th 511
+
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+NO-TQK-F3-SW-14#
+NO-TQK-F3-SW-14#terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: NO-TQK-F3-SW-14#termin
+DEBUG:netmiko:read_channel: al
+DEBUG:netmiko:read_channel:  le
+DEBUG:netmiko:read_channel: ngth 0
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+NO-TQK-F3-SW-14#terminal length 0
+DEBUG:netmiko:
+NO-TQK-F3-SW-14#terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: (\#|>)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: (\#|>) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'configure terminal\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: con
+DEBUG:netmiko:read_channel: figure terminal
+
+DEBUG:netmiko:Pattern found: (configure\ terminal) configure terminal
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Enter configuration commands, one per line.  End with CNTL/Z.
+NO-TQK-F3-SW-14(config)#
+DEBUG:netmiko:Pattern found: (NO\-TQK\-F3\-SW\-14.*) 
+Enter configuration commands, one per line.  End with CNTL/Z.
+NO-TQK-F3-SW-14(config)#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14(config)#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14(config)#
+DEBUG:netmiko:write_channel: b'interface Gi1/0/12\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: interface 
+DEBUG:netmiko:read_channel: Gi1/0/12
+
+DEBUG:netmiko:Pattern found: (interface\ Gi1/0/12) interface Gi1/0/12
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:Pattern found: ((?:NO\-TQK\-F3\-SW\-14.*$|#.*$)) 
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:write_channel: b'switchport mode access\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: switchport mod
+DEBUG:netmiko:read_channel: e access
+
+DEBUG:netmiko:Pattern found: (switchport\ mode\ access) switchport mode access
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Command authorization failed.
+
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:Pattern found: ((?:NO\-TQK\-F3\-SW\-14.*$|#.*$)) 
+Command authorization failed.
+
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:write_channel: b'switchport access vlan 200\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: switc
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: hport access vlan 200
+
+DEBUG:netmiko:Pattern found: (switchport\ access\ vlan\ 200) switchport access vlan 200
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: % Access VLAN does not exist. Creating vlan 200
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:Pattern found: ((?:NO\-TQK\-F3\-SW\-14.*$|#.*$)) 
+% Access VLAN does not exist. Creating vlan 200
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14(config-if)#
+DEBUG:netmiko:write_channel: b'end\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: end
+
+DEBUG:netmiko:Pattern found: (end) end
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: (#.*) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:exit_config_mode: end
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+NO-TQK-F3-SW-14(config)#interface Gi1/0/12
+NO-TQK-F3-SW-14(config-if)#switchport mode access
+Command authorization failed.
+
+NO-TQK-F3-SW-14(config-if)#switchport access vlan 200
+% Access VLAN does not exist. Creating vlan 200
+NO-TQK-F3-SW-14(config-if)#end
+NO-TQK-F3-SW-14#
+INFO:root:C\u1ea5u hình cho port Gi1/0/12: configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+NO-TQK-F3-SW-14(config)#interface Gi1/0/12
+NO-TQK-F3-SW-14(config-if)#switchport mode access
+Command authorization failed.
+
+NO-TQK-F3-SW-14(config-if)#switchport access vlan 200
+% Access VLAN does not exist. Creating vlan 200
+NO-TQK-F3-SW-14(config-if)#end
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show
+DEBUG:netmiko:read_channel:  running-confi
+DEBUG:netmiko:read_channel: g
+
+DEBUG:netmiko:Pattern found: (show\ running\-config) show running-config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 7587 bytes
+!
+! Last configuration change at 01:52:31 UTC Fri Aug 9 2024 by anhln1
+! NVRAM config last updated at 01:52:02 UTC Fri Aug 9 2024 by minhvv
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname NO-TQK-F3-SW-14
+!
+boot-start-marker
+boot-end-marker
+!
+enable password monsup[N]
+!
+username local_admin privilege 15 secret 5 $1$UCII$iEQZ5701Ha3SIlu/z9f1X.
+username emergence privilege 15 secret 5 $1$Z30A$uOYJ5F3C69wUlotmLkqiV0
+username support privilege 5 secret 5 $1$fUmS$mJS.mXjiOqM0Wd436WoB5.
+!
+!
+aaa new-model
+!
+!
+aaa authentication login default group tacacs+ local
+aaa authentication login CONSOLE local
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ local 
+aaa authorization commands 5 default group tacacs+ local 
+aaa authorization commands 15 default group tacacs+ local 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 5 default start-stop group tacacs+
+aaa accounting commands 15 default start-stop group tacacs+
+!
+!
+!
+aaa session-id common
+switch 1 provision ws-c2960s-24ts-l
+!
+!
+no ip domain-lookup
+ip domain-name lpb.lv.net
+!
+!
+!
+archive
+ log config
+  logging enable
+  hidekeys
+ path tftp://10.36.201.17/NORTH_BRANCH/NO-TQK-F6-SW-09
+ write-memory
+!
+spanning-tree mode mst
+spanning-tree extend system-id
+!
+spanning-tree mst configuration
+ name LPB
+ revision 1
+!
+!
+!
+!
+!
+vlan internal allocation policy ascending
+!
+ip ssh version 2
+!
+!
+interface FastEthernet0
+ no ip address
+!
+interface GigabitEthernet1/0/1
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/2
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/3
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/4
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/5
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/6
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/7
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/8
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/9
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/10
+ switchport access vlan 210
+ switchport mode access
+ spanning-tre
+DEBUG:netmiko:read_channel: e portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/11
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/12
+ switchport access vlan 200
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/13
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/14
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/15
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/16
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/17
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/18
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/19
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/20
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/21
+ switchport access vlan 240
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/22
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/23
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/24
+ description To_SW2960_01_Gi0/10
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/25
+!
+interface GigabitEthernet1/0/26
+!
+interface GigabitEthernet1/0/27
+!
+interface GigabitEthernet1/0/28
+!
+interface Vlan1
+ description ***MANAGE SWITCH***
+ ip address 10.38.1.44 255.255.255.0
+!
+ip default-gateway 10.38.1.1
+ip http server
+ip http secure-server
+ip tacacs source-interface Vlan1
+!
+ip access-list standard Access
+ permit 10.162.170.34
+ permit 10.162.170.35
+ permit 10.162.170.33
+ permit 10.38.1.0 0.0.0.255
+ permit 10.16.0.0 0.0.255.255
+ permit 10.36.0.0 0.0.255.255
+ permit 10.26.250.0 0.0.0.255
+ permit 10.38.17.0 0.0.0.255
+ permit 10.38.20.0 0.0.0.255
+ permit 10.42.250.0 0.0.0.255
+ permit 10.50.2.0 0.0.0.255
+ permit 10.51.5.0 0.0.0.255
+ permit 10.240.254.0 0.0.0.255
+ permit 10.240.252.0 0.0.0.255
+ permit 10.255.250.0 0.0.0.255
+ permit 10.28.16.0 0.0.15.255
+access-list 10 permit 10.36.128.12
+access-list 10 permit 10.36.128.16
+access-list 10 permit 10.37.11.199
+access-list 10 permit 10.36.201.12
+access-list 11 permit 10.162.170.34
+access-list 11 permit 10.162.170.35
+access-list 11 permit 10.162.170.33
+access-list 11 permit 10.16.71.13
+access-list 11 permit 10.16.71.12
+access-list 11 permit 10.16.71.14
+access-list 11 permit 10.16.71.11
+access-list 11 permit 10.36.201.102
+access-list 11 permit 10.36.201.70
+access-list 11 permit 10.36.201.73
+access-list 11 permit 10.36.201.83
+snmp-server community lvbsnmpkey RO 10
+snmp-server community lvbsnmpprikey RW 11
+snmp-server community @nac[123] RW 11
+snmp-server location 210_TQK
+snmp-server enable traps mac-notification change move threshold
+snmp-server host 10.162.170.35 @nac[123] 
+snmp-server host 10.36.201.70 @nac[123] 
+snmp-server host 10.36.201.83 @nac[123] 
+tacacs-server host 10.16.243.21 key 7 13061E010803557878
+tacacs-server host 10.36.201.14 key 7 070C285F4D06485744
+tacacs-server directed-request
+banner login ^C
+*************************** >>>> W A R N I N G !!! <<<< *******************************
+Day la thiet bi mang cua Ngan hang Loc Phat - LPBANK. Moi ket noi den thiet bi nay deu
+dang duoc ghi nhan va bao ve boi he thong bao mat, cac thay doi cau hinh duoc luu tru
+tai may chu logging.
+This system, including all related hardware and infrastructure devices, is intended for 
+authorized  use only! All activity may be logged; unauthorized access can and will be 
+prosecuted! LPBANK-security warning !!!
+***************************************************************************************
+^C
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ transport input telnet ssh
+line vty 5 15
+ privilege level 15
+ transport input ssh
+!
+ntp clock-period 22518888
+ntp server 10.36.251.168
+end
+
+NO-TQK-F3-SW-14#
+INFO:root:C\u1ea5u hình hi\u1ec7n t\u1ea1i: Building configuration...
+
+Current configuration : 7587 bytes
+!
+! Last configuration change at 01:52:31 UTC Fri Aug 9 2024 by anhln1
+! NVRAM config last updated at 01:52:02 UTC Fri Aug 9 2024 by minhvv
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname NO-TQK-F3-SW-14
+!
+boot-start-marker
+boot-end-marker
+!
+enable password monsup[N]
+!
+username local_admin privilege 15 secret 5 $1$UCII$iEQZ5701Ha3SIlu/z9f1X.
+username emergence privilege 15 secret 5 $1$Z30A$uOYJ5F3C69wUlotmLkqiV0
+username support privilege 5 secret 5 $1$fUmS$mJS.mXjiOqM0Wd436WoB5.
+!
+!
+aaa new-model
+!
+!
+aaa authentication login default group tacacs+ local
+aaa authentication login CONSOLE local
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ local 
+aaa authorization commands 5 default group tacacs+ local 
+aaa authorization commands 15 default group tacacs+ local 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 5 default start-stop group tacacs+
+aaa accounting commands 15 default start-stop group tacacs+
+!
+!
+!
+aaa session-id common
+switch 1 provision ws-c2960s-24ts-l
+!
+!
+no ip domain-lookup
+ip domain-name lpb.lv.net
+!
+!
+!
+archive
+ log config
+  logging enable
+  hidekeys
+ path tftp://10.36.201.17/NORTH_BRANCH/NO-TQK-F6-SW-09
+ write-memory
+!
+spanning-tree mode mst
+spanning-tree extend system-id
+!
+spanning-tree mst configuration
+ name LPB
+ revision 1
+!
+!
+!
+!
+!
+vlan internal allocation policy ascending
+!
+ip ssh version 2
+!
+!
+interface FastEthernet0
+ no ip address
+!
+interface GigabitEthernet1/0/1
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/2
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/3
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/4
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/5
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/6
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/7
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/8
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/9
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/10
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/11
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/12
+ switchport access vlan 200
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/13
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/14
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/15
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/16
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/17
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/18
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/19
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/20
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/21
+ switchport access vlan 240
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/22
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/23
+ switchport access vlan 210
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0/24
+ description To_SW2960_01_Gi0/10
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/25
+!
+interface GigabitEthernet1/0/26
+!
+interface GigabitEthernet1/0/27
+!
+interface GigabitEthernet1/0/28
+!
+interface Vlan1
+ description ***MANAGE SWITCH***
+ ip address 10.38.1.44 255.255.255.0
+!
+ip default-gateway 10.38.1.1
+ip http server
+ip http secure-server
+ip tacacs source-interface Vlan1
+!
+ip access-list standard Access
+ permit 10.162.170.34
+ permit 10.162.170.35
+ permit 10.162.170.33
+ permit 10.38.1.0 0.0.0.255
+ permit 10.16.0.0 0.0.255.255
+ permit 10.36.0.0 0.0.255.255
+ permit 10.26.250.0 0.0.0.255
+ permit 10.38.17.0 0.0.0.255
+ permit 10.38.20.0 0.0.0.255
+ permit 10.42.250.0 0.0.0.255
+ permit 10.50.2.0 0.0.0.255
+ permit 10.51.5.0 0.0.0.255
+ permit 10.240.254.0 0.0.0.255
+ permit 10.240.252.0 0.0.0.255
+ permit 10.255.250.0 0.0.0.255
+ permit 10.28.16.0 0.0.15.255
+access-list 10 permit 10.36.128.12
+access-list 10 permit 10.36.128.16
+access-list 10 permit 10.37.11.199
+access-list 10 permit 10.36.201.12
+access-list 11 permit 10.162.170.34
+access-list 11 permit 10.162.170.35
+access-list 11 permit 10.162.170.33
+access-list 11 permit 10.16.71.13
+access-list 11 permit 10.16.71.12
+access-list 11 permit 10.16.71.14
+access-list 11 permit 10.16.71.11
+access-list 11 permit 10.36.201.102
+access-list 11 permit 10.36.201.70
+access-list 11 permit 10.36.201.73
+access-list 11 permit 10.36.201.83
+snmp-server community lvbsnmpkey RO 10
+snmp-server community lvbsnmpprikey RW 11
+snmp-server community @nac[123] RW 11
+snmp-server location 210_TQK
+snmp-server enable traps mac-notification change move threshold
+snmp-server host 10.162.170.35 @nac[123] 
+snmp-server host 10.36.201.70 @nac[123] 
+snmp-server host 10.36.201.83 @nac[123] 
+tacacs-server host 10.16.243.21 key 7 13061E010803557878
+tacacs-server host 10.36.201.14 key 7 070C285F4D06485744
+tacacs-server directed-request
+banner login ^C
+*************************** >>>> W A R N I N G !!! <<<< *******************************
+Day la thiet bi mang cua Ngan hang Loc Phat - LPBANK. Moi ket noi den thiet bi nay deu
+dang duoc ghi nhan va bao ve boi he thong bao mat, cac thay doi cau hinh duoc luu tru
+tai may chu logging.
+This system, including all related hardware and infrastructure devices, is intended for 
+authorized  use only! All activity may be logged; unauthorized access can and will be 
+prosecuted! LPBANK-security warning !!!
+***************************************************************************************
+^C
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ transport input telnet ssh
+line vty 5 15
+ privilege level 15
+ transport input ssh
+!
+ntp clock-period 22518888
+ntp server 10.36.251.168
+end
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'write memory\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: write memor
+DEBUG:netmiko:read_channel: y
+
+DEBUG:netmiko:Pattern found: (write\ memory) write memory
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: [OK]!
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+INFO:root:K\u1ebft qu\u1ea3 l\u01b0u c\u1ea5u hình: Building configuration...
+[OK]!
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:Pattern found: ([>#]) 
+NO-TQK-F3-SW-14#
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:EOF in transport thread
